@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eef1f5; /* Light background */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.count-display {
+    font-size: 1.5em; /* Larger font for the count */
+    margin: 30px 0;
+    color: #555;
+}
+
+#click-count {
+    font-weight: bold;
+    font-size: 1.8em; /* Even larger for the number itself */
+    color: #007bff; /* Blue color for the count */
+    margin: 0 5px; /* Add a little space around the number */
+}
+
+#increment-button {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #dc3545; /* Red button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease; /* Smooth transitions */
+}
+
+#increment-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+#increment-button:active {
+    background-color: #bd2130; /* Even darker when clicked */
+    transform: scale(0.98); /* Slightly shrink button when clicked */
+}
